@@ -9,8 +9,8 @@ name: j
 description: developer
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: ![_config.yml]({{ site.baseurl }}/images/248764.png)
-#avatar: https://github.com/hyunjun/hyunjun.github.io/blob/master/images/248764.png?raw=true
+#avatar: ![_config.yml]({{ site.baseurl }}/images/248764.png)
+avatar: https://github.com/hyunjun/hyunjun.github.io/blob/master/images/248764.png?raw=true
 
 #
 # Flags below are optional

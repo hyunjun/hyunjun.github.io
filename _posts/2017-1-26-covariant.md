@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [Scala] Covariant, Contravariant
+title: Scala, Covariant, Contravariant
 ---
 
 # Covariant, Contravariant

@@ -30,5 +30,5 @@ Type "help", "copyright", "credits" or "license" for more information.
   ```
 
 * Windows10
-  * ![python window unicode]({{ site.baseurl }}/images/covariant/python_window_unicode.png)
+  * ![python window unicode]({{ site.baseurl }}/images/python_window_unicode.png)
   * [`chcp 65001`](http://stackoverflow.com/questions/388490/unicode-characters-in-windows-command-line-how/388500#388500)

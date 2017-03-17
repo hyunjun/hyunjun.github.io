@@ -461,8 +461,12 @@ title: Programming Books
 
 ## Node.js
 
-* (한라 NOT YET) [Express 인액션Node.js를 쉽고 강력하게 만들어 줄 웹 프레임워크](http://book.daum.net/detail/book.do?bookid=KOR9791186697283)
+* [Express 인액션Node.js를 쉽고 강력하게 만들어 줄 웹 프레임워크](http://book.daum.net/detail/book.do?bookid=KOR9791186697283)
   * 2017.01
+  * 한라 005.118 한64ㅇ
+* [(자바스크립트와 Node.js를 이용한) 웹 크롤링 테크닉수집 저장 분석에서 머신러닝까지](http://book.daum.net/detail/book.do?bookid=BOK00031843641YE)
+  * 2016.12
+  * 한라 005.74 쿠78ㅇ
 
 # Linux
 
@@ -491,6 +495,9 @@ title: Programming Books
 
 * (한라 NOT YET) [왕초보! 파이썬 배워 크롤러 DIY 하다!](http://www.aladin.co.kr/shop/wproduct.aspx?ItemId=79657889)
   * 2016.03
+* [파이썬 분산 컴퓨팅분산 컴퓨팅 기초부터 테스팅과 디버깅까지](http://book.daum.net/detail/book.do?bookid=BOK00031174400YE)
+  * 2016.11
+  * 한라 005.133 피64파
 
 # R
 

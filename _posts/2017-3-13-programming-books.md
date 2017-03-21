@@ -115,6 +115,8 @@ title: Programming Books
   * 한라 005.76 0152빅
 * **_밑바닥부터 시작하는 데이터 과학_**
   * 한라 005.7 그296ㄷ
+  * [밑바닥부터 시작하는 데이터 사이언스](https://github.com/insightbook/Data-Science-from-Scratch)
+  * [밑바닥부터 시작하는 데이터 과학 ch.03 데이터 시각화](http://seokjoonyun.blogspot.com/2016/08/ch03.html)
   * 여러가지 기초에 해당하는 부분들을 다룸
 * Microsoft Azure Machine Learning 애저 머신 러닝을 이용한 예측 분석
   * 한라 005.133 바297ㅇ
@@ -138,6 +140,7 @@ title: Programming Books
   * 한라 004.73 마57ㅆ
 * 밑바닥부터 시작하는 딥러닝
   * 탐라 문004.73 사68ㅁ
+  * [『밑바닥부터 시작하는 딥러닝』 (원서 : ゼロから作る Deep Learning)](https://github.com/WegraLee/deep-learning-from-scratch/blob/master/README.md)
   * 2017.01
   * 이론 설명 + 파이썬으로 딥러닝 구현
   * vector의 표현 형식이 row major와 column major가 혼재되어 있다고 비판하는 의견도 있음

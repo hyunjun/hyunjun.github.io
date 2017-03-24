@@ -179,8 +179,10 @@ title: Programming Books
 * 마스터 알고리즘
   * 한라 003.54 도38ㅁ
   * 머신러닝의 큰 5가지 갈래에 대한 이야기 프로그래밍 책은 아니지만 개념을 잡기 위해 좋을 듯
-* (한라 NOT YET) [내꺼하자! 머신러닝! 어서와~ 머신러닝은 처음이지?](http://m.aladin.co.kr/m/mproduct.aspx?ItemId=99084501)
+* [내꺼하자! 머신러닝! 어서와~ 머신러닝은 처음이지?](http://m.aladin.co.kr/m/mproduct.aspx?ItemId=99084501)
   * 2016.12
+  * 한라 004.73 양78ㅇ
+  * 이론 + R programming & library
 
 ## Tensorflow
 * 텐서플로 첫걸음
@@ -314,6 +316,11 @@ title: Programming Books
 
 * 마하웃 완벽 가이드
   * 탐라 개004.지67ㅁ
+
+# NLP
+
+* 단어의 사생활
+  * programming 책은 아니지만, 사용하는 단어를 분석해 여러가지를 파악한다는 점에서 읽어볼만한 책
 
 # NoSQL
 
@@ -493,8 +500,10 @@ title: Programming Books
 
 # Python
 
-* (한라 NOT YET) [왕초보! 파이썬 배워 크롤러 DIY 하다!](http://www.aladin.co.kr/shop/wproduct.aspx?ItemId=79657889)
+* [왕초보! 파이썬 배워 크롤러 DIY 하다!](http://www.aladin.co.kr/shop/wproduct.aspx?ItemId=79657889)
   * 2016.03
+  * 한라 005.133 서78ㅇ
+  * python 기초, beautifulsoup 한 챕터, 기초 알고리즘 한 챕터
 * [파이썬 분산 컴퓨팅분산 컴퓨팅 기초부터 테스팅과 디버깅까지](http://book.daum.net/detail/book.do?bookid=BOK00031174400YE)
   * 2016.11
   * 한라 005.133 피64파

@@ -249,6 +249,7 @@ title: Programming Books
   * 한라 005.118-웨57ㅌ
   * Git뿐만 아니라 GIthub, Bitbucket, Gitlab등의 내용도 포함
   * 색인이 없다는 단점
+  * [[Book] 팀을 위한 Git](https://blog.outsider.ne.kr/1281)
 
 # Go
 
@@ -414,6 +415,10 @@ title: Programming Books
 * (한라 NOT YET) [아론 할리가스의 iOS 프로그래밍](http://www.yes24.com/24/goods/26035538)
   * 2016.04
   * 005.11-힐298아
+
+## Swift
+
+* [스위프트 프로그래밍](http://blog.yagom.net/533)
 
 # Java
 

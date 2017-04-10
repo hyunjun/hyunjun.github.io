@@ -30,6 +30,11 @@ title: Programming Books
   * 2016.12
   * 한라 004.5 타884ㅌ
 
+# Architecture
+
+* 마이크로서비스 아키텍처 구축
+  * 한라 005.12 뉴34ㅁ
+
 # C
 
 * Understanding and Using C Pointers / C 포인터의 이해와 활용
@@ -95,6 +100,8 @@ title: Programming Books
   * 한라 005.76시14ㅇ
 * (NOT YET) 엑셀로 이해하는 데이터 과학 입문
   * 005.76-포34ㄷ
+* 엑셀로 배우는 인공지능
+  * 한라 004.73 아52ㅇ
 * (NOT YET) 비즈니스를 위한 데이터 과학
   * 탐라 개005.7-프295ㄷ
 * 빅데이터 베이스볼 : 20년간 실패한 팀은 어떻게 승자가 되었나?
@@ -469,6 +476,9 @@ title: Programming Books
 
 # JavaScript
 
+* 처음 만나는 자바스크립트
+  * 한라 005.138 가195ㅊ
+
 ## Angular
 
 * (한라 NOT YET) [쉽고 빠르게 배우는 Angular 2 프로그래밍](http://wikibook.co.kr/angular-2/)
@@ -505,6 +515,7 @@ title: Programming Books
 
 * [라라벨로 배우는 실전 PHP 웹 프로그래밍](http://jpub.tistory.com/622)
   * 2016.11
+  * 한라 005.138 김76ㅅ
 
 # Python
 

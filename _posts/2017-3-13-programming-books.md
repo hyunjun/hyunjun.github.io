@@ -34,6 +34,7 @@ title: Programming Books
 
 * 마이크로서비스 아키텍처 구축
   * 한라 005.12 뉴34ㅁ
+  * [마이크로서비스 아키텍처 구축](https://brunch.co.kr/@insuk/30)
 
 # C
 

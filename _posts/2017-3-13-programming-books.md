@@ -123,9 +123,13 @@ title: Programming Books
   * 한라 005.76 0152빅
 * **_밑바닥부터 시작하는 데이터 과학_**
   * 한라 005.7 그296ㄷ
+  * 여러가지 기초에 해당하는 부분들을 다룸
   * [밑바닥부터 시작하는 데이터 사이언스](https://github.com/insightbook/Data-Science-from-Scratch)
   * [밑바닥부터 시작하는 데이터 과학 ch.03 데이터 시각화](http://seokjoonyun.blogspot.com/2016/08/ch03.html)
-  * 여러가지 기초에 해당하는 부분들을 다룸
+  * [밑바닥부터 시작하는 딥러닝 - 3장(신경망)](http://astrod.github.io/2017/02/19/%EB%B0%91%EB%B0%94%EB%8B%A5%EB%B6%80%ED%84%B0-%EC%8B%9C%EC%9E%91%ED%95%98%EB%8A%94-%EB%94%A5%EB%9F%AC%EB%8B%9D_%EC%8B%A0%EA%B2%BD%EB%A7%9D.html)
+  * [딥러닝 - 오차역전파법](http://astrod.github.io/2017/03/19/%EC%98%A4%EC%B0%A8%EC%97%AD%EC%A0%84%ED%8C%8C%EB%B2%95(5%EC%9E%A5).html)
+  * [딥러닝 - 학습 관련 기술들](http://astrod.github.io/2017/04/01/%ED%95%99%EC%8A%B5-%EA%B4%80%EB%A0%A8-%EA%B8%B0%EC%88%A0%EB%93%A4.html)
+  * [합성곱 신경망(CNN)](http://astrod.github.io/2017/04/09/%ED%95%A9%EC%84%B1%EA%B3%B1-%EC%8B%A0%EA%B2%BD%EB%A7%9D(CNN).html)
 * Microsoft Azure Machine Learning 애저 머신 러닝을 이용한 예측 분석
   * 한라 005.133 바297ㅇ
 * Microsoft Azure 에센셜 (Azure 입문 & 개발자를 위한 Azure 웹 앱)

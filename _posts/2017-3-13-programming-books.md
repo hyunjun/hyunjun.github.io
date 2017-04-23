@@ -521,6 +521,11 @@ title: Programming Books
   * 한라 005.44키35ㄴ
   * 명령어 참고에 도움이 될 듯. soso
 
+## Vim
+
+* 손이 먼저 반응하는 Practical Vim
+  * 탐라 문005.51 네68p
+
 # PHP
 
 * [라라벨로 배우는 실전 PHP 웹 프로그래밍](http://jpub.tistory.com/622)

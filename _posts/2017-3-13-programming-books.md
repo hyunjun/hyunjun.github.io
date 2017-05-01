@@ -18,6 +18,8 @@ title: Programming Books
 * (NOT YET) 알고리즘 : 컴퓨터 과학의 기본, 숫자 알고리즘에서 양자 알고리즘까지
 * (NOT YET) 알고리즘 문제 풀이 전략
 * (NOT YET) 코딩 트레이닝
+* (NOT YET) Hello Coding 그림으로 개념을 이해하는 알고리즘
+  * [정말 쉬운 <그림으로 개념을 이해하는 알고리즘>](https://brunch.co.kr/@insuk/31)
 
 # Amazon AWS
 

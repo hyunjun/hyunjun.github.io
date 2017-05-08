@@ -3,6 +3,11 @@ layout: post
 title: Programming Books
 ---
 
+# Agile Scrum
+
+* [(성공적인 애자일 도입을 위한) 에센셜 스크럼](2017-5-2-essential-scrum.md)
+  * 한라 005.1-루48ㅇ
+
 # Algorithm
 
 * 해커의 기쁨: 비트와 바이트 그리고 알고리즘
@@ -49,6 +54,7 @@ title: Programming Books
 * Boost.Asio를 이용한 네트워크 프로그래밍
   * 탐라 개005.11최95ㄴ
 * C++ 더 쉽게, 더 깊게
+  * 한라 005.133-알294ㅆ
   * 탐라 개005.1알294ㅆ
   * 입문서. Code::Blocks라는 open source IDE 사용
   * OS X 사용자를 위해 Xcode 설치가 나와있는 점도 특이
@@ -75,6 +81,11 @@ title: Programming Books
 * 누구나 쉽게 배우는 클로저 (더 나은 프로그래머가 되기 위한 궁극의 언어)
   * 탐라 문005.13 히18ㄴ
   * clojure 1.7
+
+# Compiler
+
+* (한라 NOT YET) [제대로 배우는 LLVM 코어 라이브러리](http://bjpublic.tistory.com/271)
+  * 2017.04
 
 # Data Science
 
@@ -203,6 +214,8 @@ title: Programming Books
   * 2016.12
   * 한라 004.73 양78ㅇ
   * 이론 + R programming & library
+* (한라 NOT YET) [웹을 위한 머신 러닝](http://book.daum.net/detail/book.do?bookid=KOR9788960779877)
+  * 2017.03
 
 ## Tensorflow
 * 텐서플로 첫걸음
@@ -238,6 +251,8 @@ title: Programming Books
   * version 1.12, 데이터 전용 컨테이너 항목 참고
 * (NOT YET) 제대로 배우는 도커
   * 2017.01
+* (한라 NOT YET) [시작하세요! 도커](http://wikibook.co.kr/docker/)
+  * 2017.04
 
 # Elasticsearch
 
@@ -288,6 +303,8 @@ title: Programming Books
 * **_[Go 언어 웹 프로그래밍 철저 입문](https://thebook.io/006806/)_**
   * 한라 005.13-장73ㄱ
   * 1~7장은 기초(다른 책과 큰 차이 없을 듯). 8, 9, 10(Revel)장이 좋은 듯
+* (한라 NOT YET) [Go 웹 프로그래밍](http://bjpublic.tistory.com/269)
+  * 2017.03
 
 # Hadoop
 
@@ -544,6 +561,12 @@ title: Programming Books
 * **_[파이썬 분산 컴퓨팅분산 컴퓨팅 기초부터 테스팅과 디버깅까지](http://book.daum.net/detail/book.do?bookid=BOK00031174400YE)_**
   * 2016.11
   * 한라 005.133 피64파
+* (탐라 NOT YET) [파이썬으로 배우는 알고리즘 트레이딩](http://wikibook.co.kr/algorithm-trading/)
+  * 2017.05
+* (탐라 NOT YET) [파이썬 웹 스크래핑](http://www.aladin.co.kr/shop/wproduct.aspx?ItemId=107637296)
+  * 2017.04
+* (한라 NOT YET) [파이썬 실무 프로그래밍](http://wikibook.co.kr/python-for-sysadmin/)
+  * 2017.03
 
 # R
 
@@ -604,6 +627,7 @@ title: Programming Books
   * 한라 005.133-프295ㅅ
 * (한라 NOT YET) [누구나 쉽게 스칼라+플레이스칼라 입문부터 게시판, 채팅 프로그램 제작까지](http://book.daum.net/detail/book.do?bookid=KOR9788968484728)
   * 2016.11
+* (한라 NOT YET) [러닝 스칼라](http://jpub.tistory.com/673)
 
 # Spark
 

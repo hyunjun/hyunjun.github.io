@@ -25,6 +25,9 @@ title: Programming Books
 * (NOT YET) 코딩 트레이닝
 * (NOT YET) Hello Coding 그림으로 개념을 이해하는 알고리즘
   * [정말 쉬운 <그림으로 개념을 이해하는 알고리즘>](https://brunch.co.kr/@insuk/31)
+* (NOT YET) [알고리즘 비밀의 문을 열다 - 처음 배우는 알고리즘](http://book.daum.net/detail/book.do?bookid=KOR9788960779242)
+  * 2016.11
+  * 한라 005.1 코34알
 
 # Amazon AWS
 
@@ -216,6 +219,9 @@ title: Programming Books
   * 이론 + R programming & library
 * (한라 NOT YET) [웹을 위한 머신 러닝](http://book.daum.net/detail/book.do?bookid=KOR9788960779877)
   * 2017.03
+* (NOT YET) [통계적 기계 학습](http://book.daum.net/detail/book.do?bookid=KOR9788952117625) 생성 모델에 근거한 패턴 인식
+  * 2016.04
+  * 한라 004.74 스18ㅌ
 
 ## Tensorflow
 * 텐서플로 첫걸음

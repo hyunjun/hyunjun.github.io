@@ -159,6 +159,8 @@ title: Programming Books
   * 2017.01
 * (탐라 한라 NOT YET) [단어의 사생활](https://brunch.co.kr/@cloud09/125)
   * 2016.12
+* (한라 NOT YET) 빅데이터 마이닝
+  * 한라 005.76 레57ㅂ
 
 ## Deep Learning
 * 가장 빨리 만나는 딥러닝 with Caffe
@@ -571,6 +573,8 @@ title: Programming Books
   * 2017.05
 * (탐라 NOT YET) [파이썬 웹 스크래핑](http://www.aladin.co.kr/shop/wproduct.aspx?ItemId=107637296)
   * 2017.04
+* [파이썬 병렬 프로그래밍](http://wikibook.co.kr/python-for-sysadmin/)
+  * 한라 005.133 팔292ㅍ
 * (한라 NOT YET) [파이썬 실무 프로그래밍](http://wikibook.co.kr/python-for-sysadmin/)
   * 2017.03
 
@@ -605,6 +609,8 @@ title: Programming Books
   * 제목 그대로 통계학 + 언어 + R
 * (NOT YET) 신입 탐정의 데이터 분석 입문
   * 2016.11
+* (한라 NOT YET) 통계 분석 너머 R의 무궁무진한 활용
+  * 한라 005.54 고54ㅌ
 
 # Scala
 

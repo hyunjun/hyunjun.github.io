@@ -4,17 +4,24 @@ title: Kafka on Python
 ---
 
 # Environments
-* Redhat 6.6, CDH5.3 installed
+* Redhat 6.6 (CDH5.3 installed)
+  * python 2.7.11 / python3.5.1
+* Redhat 7.3
+  * python 2.7.5 / python3.6.1
 * kafka 2.11-0.10.2.0; [Download](https://www.apache.org/dyn/closer.cgi?path=/kafka/0.10.2.0/kafka_2.11-0.10.2.0.tgz)
   * [Quickstart](https://kafka.apache.org/quickstart)
-* python 2.7.11/python3.5.1
 
 # ref
 * [A Practical Guide to Apache Kafka: Part 1](https://www.coshx.com/blog/2016/10/20/a-practical-guide-to-kafka1/)
 
 # Library
 * confluent-kafka
-  * installation failed
+  * installation
+
+    ```
+    $ sudo yum install librdkafka-devel python-devel
+    $ pip[3] install confluent-kafka
+    ```
   * ref
     * [Confluent's Python Client for Apache KafkaTM](https://github.com/confluentinc/confluent-kafka-python)
     * [confluent-kafka-python](http://docs.confluent.io/3.0.1/clients/confluent-kafka-python/)
@@ -73,10 +80,9 @@ title: Kafka on Python
   * installation
 
     ```
-    # Redhat 6.6
-    $ yum install snappy-devel
-    $ pip install python-snappy
-    $ pip install pykafka
+    $ sudo yum install snappy-devel
+    $ pip[3] install python-snappy
+    $ pip[3] install pykafka
     ```
   * ref
     * [PyKafka](https://github.com/Parsely/pykafka)

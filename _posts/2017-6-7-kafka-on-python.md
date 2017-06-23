@@ -13,9 +13,14 @@ title: Kafka on Python
 
 # ref
 * [A Practical Guide to Apache Kafka: Part 1](https://www.coshx.com/blog/2016/10/20/a-practical-guide-to-kafka1/)
+* `auto_offset_reset='smallest'`
+  * 시작할 때 부터의 message를 받아오는 option
+  * 아래 3가지 library 모두 공통 적용
+  * [from-beginning equivalent when using the client](https://github.com/dpkp/kafka-python/issues/461)
 
 # Library
 * confluent-kafka
+ * librdkafka 기반
   * installation
 
     ```
@@ -23,6 +28,7 @@ title: Kafka on Python
     $ pip[3] install confluent-kafka
     ```
   * ref
+    * [Introduction to Apache Kafka for Python Programmers](https://www.confluent.io/blog/introduction-to-apache-kafka-for-python-programmers/)
     * [Confluent's Python Client for Apache KafkaTM](https://github.com/confluentinc/confluent-kafka-python)
     * [confluent-kafka-python](http://docs.confluent.io/3.0.1/clients/confluent-kafka-python/)
     * [confluent-kafka](https://pypi.python.org/pypi/confluent-kafka)
@@ -76,13 +82,45 @@ title: Kafka on Python
     * [Kafka-python(Programming) Questions & Answers](http://techqa.info/programming/tag/kafka-python)
     * [Part 2.3: Getting started with Apache Kafka and Python](https://www.cloudkarafka.com/blog/2016-12-13-part2-3-apache-kafka-for-beginners_example-and-sample-code-python.html)
     * [Python Kafka Consumer Record](http://codegists.com/code/python-kafka-consumer-record/)
+    * [Installing Apache Kafka and using Python 3 to communicate with it](http://www.giantflyingsaucer.com/blog/?p=5541)
 * pykafka
   * installation
 
     ```
-    $ sudo yum install snappy-devel
+    $ sudo yum install snappy-devel       # Redhat
+    $ sudo apt-get install libsnappy-dev  # Ubuntu
+
     $ pip[3] install python-snappy
     $ pip[3] install pykafka
+    ```
+  * failed to run on Docker; Everytime I run my test program, opened ports are various like below, so I don't know which ports to pen when running Docker
+
+    ```
+    $ python3 test_pykafka.py
+    $ netstat -anp | grep -i python3
+    (Not all processes could be identified, non-owned process info
+     will not be shown, you would have to be root to see it all.)
+    tcp        0      0 10.61.26.109:55584      10.195.23.74:3306       ESTABLISHED 17084/python3
+    tcp        0      0 10.61.26.109:42717      10.60.28.89:9092        ESTABLISHED 17084/python3
+    tcp        0      0 10.61.26.109:39935      10.60.5.205:9092        ESTABLISHED 17084/python3
+    tcp        0      0 10.61.26.109:38610      10.60.29.145:9092       ESTABLISHED 17084/python3
+    tcp        0      0 10.61.26.109:53859      10.60.29.83:9092        ESTABLISHED 17084/python3
+    tcp        0      0 10.61.26.109:55582      10.195.23.74:3306       ESTABLISHED 17084/python3
+    tcp        0      0 10.61.26.109:43787      10.60.1.19:9092         ESTABLISHED 17084/python3
+
+    # reexecute
+    $ python3 test_pykafka.py
+    $ netstat -anp | grep -i python3
+    (Not all processes could be identified, non-owned process info
+     will not be shown, you would have to be root to see it all.)
+    tcp        0      0 10.61.26.109:43546      10.61.26.109:8202       ESTABLISHED 29088/python3
+    tcp        0      0 10.61.26.109:59354      10.60.29.145:9092       ESTABLISHED 29088/python3
+    tcp        0      0 10.61.26.109:40407      10.60.1.19:9092         ESTABLISHED 29088/python3
+    tcp        0      0 10.61.26.109:40749      10.60.28.89:9092        ESTABLISHED 29088/python3
+    tcp        0      0 10.61.26.109:53573      10.60.5.205:9092        ESTABLISHED 29088/python3
+    tcp        0      0 10.61.26.109:48598      10.60.29.83:9092        ESTABLISHED 29088/python3
+    tcp        0      0 10.61.26.109:60866      10.195.23.74:3306       ESTABLISHED 29088/python3
+    tcp        0      0 10.61.26.109:60864      10.195.23.74:3306       ESTABLISHED 29088/python3
     ```
   * ref
     * [PyKafka](https://github.com/Parsely/pykafka)

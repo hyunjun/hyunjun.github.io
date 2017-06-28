@@ -93,6 +93,21 @@ title: Kafka on Python
     $ pip[3] install python-snappy
     $ pip[3] install pykafka
     ```
+  * Consumer
+
+    ```
+    # python 3.6.1
+    from pykafka import KafkaClient
+
+    # for topic, bytearray doesn't work
+    bootstrap_server, my_topic = '{}:{}'.format('x.y.z.w', '1234'), bytes('some_topic', 'utf8')
+
+    client = KafkaClient(bootstrap_server)
+    topic = client.topics[my_topic]
+    consumer = topic.get_simple_consumer()
+    for message in consumer:
+      print(message.value)
+    ```
   * failed to run on Docker; Everytime I run my test program, opened ports are various like below, so I don't know which ports to pen when running Docker
 
     ```

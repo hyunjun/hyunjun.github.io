@@ -29,6 +29,7 @@ title: Kafka on Python
     ```
   * ref
     * [Introduction to Apache Kafka for Python Programmers](https://www.confluent.io/blog/introduction-to-apache-kafka-for-python-programmers/)
+    * [confluent.io/clients](https://www.confluent.io/clients/)
     * [Confluent's Python Client for Apache KafkaTM](https://github.com/confluentinc/confluent-kafka-python)
     * [confluent-kafka-python](http://docs.confluent.io/3.0.1/clients/confluent-kafka-python/)
     * [confluent-kafka](https://pypi.python.org/pypi/confluent-kafka)

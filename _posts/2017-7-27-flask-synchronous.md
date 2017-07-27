@@ -7,17 +7,17 @@ title: Flask development server, single threaded, synchronous, ...
   * flask API server에서 다른 server(tornado)를 호출해 결과를 만드는 API가 있는데, 결과가 비정상
   * 비정상인 이유는 중간에 timeout이 발생했기 때문
 * 아주 간략한 전체 흐름
-  * ![0]({{ site.baseurl }}/images/20170727_0.jpg) {.aligncenter}
+  * ![0]({{ site.baseurl }}/images/20170727_0.jpg)
   * ePattern API를 시작하면 (내부 콜은 생략하고) Extract API를 호출
   * Extract API는 library call로 sparser 호출
   * sparser가 Entity API를 호출
   * 리턴, 리턴, 리턴이 발생하면 정상 종료
 * ePattern API는 requests.get으로 Extract API를 호출
-  * ![1]({{ site.baseurl }}/images/20170727_1.jpg) {.aligncenter}
+  * ![1]({{ site.baseurl }}/images/20170727_1.jpg)
 * sparser는 libcurl의 curl_easy_perform으로 Entity API를 호출
-  * ![2]({{ site.baseurl }}/images/20170727_2.jpg) {.aligncenter}
+  * ![2]({{ site.baseurl }}/images/20170727_2.jpg)
 * timeout 발생 이유
-  * ![3]({{ site.baseurl }}/images/20170727_3.jpg) {.aligncenter}
+  * ![3]({{ site.baseurl }}/images/20170727_3.jpg)
   * sparser는 Entity API의 리턴을 기다리지만, 여기서 timeout이 발생
   * 왜냐하면 flask server는 ePattern에 대한 리턴값을 Extract API에게서 기다리는 중이라, 이걸 먼저 해결해야 그 다음 Entity API를 처리해줄 수 있기 때문
 * 해결 방법

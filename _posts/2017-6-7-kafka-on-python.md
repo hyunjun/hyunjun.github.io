@@ -109,6 +109,9 @@ title: Kafka on Python
     for message in consumer:
       print(message.value)
     ```
+    * use `consumer = topic.get_simple_consumer(auto_offset_reset=pykafka.common.OffsetType.LATEST)` to get message from the latest one
+      * [pykafka.readthedocs.io/en/latest/api/common.html](http://pykafka.readthedocs.io/en/latest/api/common.html)
+      * [kafka.apache.org/documentation.html](http://kafka.apache.org/documentation.html) -> find auto.offset.reset
   * failed to run on Docker; Everytime I run my test program, opened ports are various like below, so I don't know which ports to pen when running Docker
 
     ```

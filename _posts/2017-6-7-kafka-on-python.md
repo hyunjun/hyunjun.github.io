@@ -13,10 +13,15 @@ title: Kafka on Python
 
 # ref
 * [A Practical Guide to Apache Kafka: Part 1](https://www.coshx.com/blog/2016/10/20/a-practical-guide-to-kafka1/)
+* `auto_commit` or `auto_commit_enable`
+  * [kafka.consumer.simple.SimpleConsumer](http://kafka-python.readthedocs.io/en/master/apidoc/kafka.consumer.html)
+  * [KafkaConsumer commit offset did not work](https://github.com/dpkp/kafka-python/issues/458)
+  * [SocketDisconnectedError on commit_offsets()](https://github.com/Parsely/pykafka/issues/224)
 * `auto_offset_reset='smallest'`
   * 시작할 때 부터의 message를 받아오는 option
   * 아래 3가지 library 모두 공통 적용
   * [from-beginning equivalent when using the client](https://github.com/dpkp/kafka-python/issues/461)
+* `task_done`
 
 # Library
 * confluent-kafka

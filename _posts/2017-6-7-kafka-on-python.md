@@ -10,9 +10,20 @@ title: Kafka on Python
   * python 2.7.5 / python3.6.1
 * kafka 2.11-0.10.2.0; [Download](https://www.apache.org/dyn/closer.cgi?path=/kafka/0.10.2.0/kafka_2.11-0.10.2.0.tgz)
   * [Quickstart](https://kafka.apache.org/quickstart)
+  * execution
+
+    ```
+    $ /path/to/kafka-console-consumer.sh \
+      --bootstrap-server <server>:<port> \
+      --topic <topic> \
+      [--from-beginning|--partition <partition> --offset <offset>]
+    ```
+    * to use `offset`, must use `partition`, too
 
 # ref
 * [A Practical Guide to Apache Kafka: Part 1](https://www.coshx.com/blog/2016/10/20/a-practical-guide-to-kafka1/)
+* [Getting Started with Apache Kafka for the Baffled, Part 2](http://www.shayne.me/blog/2015/2015-06-25-everything-about-kafka-part-2/)
+* [kafka console tools](https://stackoverflow.com/documentation/apache-kafka/8990/kafka-console-tools)
 * `auto_commit` or `auto_commit_enable`
   * [kafka.consumer.simple.SimpleConsumer](http://kafka-python.readthedocs.io/en/master/apidoc/kafka.consumer.html)
   * [KafkaConsumer commit offset did not work](https://github.com/dpkp/kafka-python/issues/458)
@@ -21,6 +32,9 @@ title: Kafka on Python
   * 시작할 때 부터의 message를 받아오는 option
   * 아래 3가지 library 모두 공통 적용
   * [from-beginning equivalent when using the client](https://github.com/dpkp/kafka-python/issues/461)
+* offset
+  * [Kafka console consumer: How to get only the last N messages from a topic instead of everything from the beginning?](https://stackoverflow.com/questions/38983405/kafka-console-consumer-how-to-get-only-the-last-n-messages-from-a-topic-instead)
+  * [Kafka - Rewind Consumer Offsets](https://jeqo.github.io/post/2017-01-31-kafka-rewind-consumers-offset/)
 * `task_done`
 
 # Library
@@ -38,6 +52,7 @@ title: Kafka on Python
     * [Confluent's Python Client for Apache KafkaTM](https://github.com/confluentinc/confluent-kafka-python)
     * [confluent-kafka-python](http://docs.confluent.io/3.0.1/clients/confluent-kafka-python/)
     * [confluent-kafka](https://pypi.python.org/pypi/confluent-kafka)
+* [kafka-docker](https://github.com/wurstmeister/kafka-docker)
 * kafka-python
   * practice from [Python Kafka Code Example](http://gangmax.me/blog/2017/03/13/python-kafka-code-example/)
     * installation `pip install kafka-python` or `pip3 install kafka-python`
